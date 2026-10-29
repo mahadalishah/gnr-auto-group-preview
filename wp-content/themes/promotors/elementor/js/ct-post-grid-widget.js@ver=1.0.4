@@ -1,0 +1,44 @@
+( function( $ ) {
+    /**
+     * @param $scope The Widget wrapper element as a jQuery element
+     * @param $ The jQuery alias
+     */
+
+    var WidgetPostMasonryHandler = function( $scope, $ ) {
+        setTimeout(function () {
+            if (!window.elementorFrontend.isEditMode()) {
+                $('.ct-grid-masonry').imagesLoaded(function(){
+                    $.sep_grid_refresh();
+                });
+            }
+        }, 500);
+
+        $(".blog-list-scroll").each(function() {
+            var get_height = $(this).find(".grid-item").outerHeight();
+            var get_value = $(this).attr('data-scroll');
+            var list_height = (get_height * get_value) + 30;
+            $(this).find(".ct-grid-inner").css('max-height', list_height);
+        });
+        $(".blog-list-scroll .ct-grid-inner").overlayScrollbars({
+            className: "os-theme-block-light",
+            overflowBehavior : {
+                x : "hidden",
+                y : "scroll"
+            },
+        });
+    };
+
+    // Make sure you run this code under Elementor.
+    $( window ).on( 'elementor/frontend/init', function() {
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_blog_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_service_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_testimonial_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_gallery_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_gallery_post.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_product_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_portfolio_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_team_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_fancy_box_grid.default', WidgetPostMasonryHandler );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/ct_product_categories_gird.default', WidgetPostMasonryHandler );
+    } );
+} )( jQuery );

@@ -1,0 +1,23 @@
+.site-content .elementor-row {
+	flex-wrap: wrap;
+}
+.elementor-column-gap-extended > .elementor-column > .elementor-element-populated,
+.elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {padding: 15px;}
+.elementor-widget-inner {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	width: 100%;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+}
+@media (prefers-reduced-motion: no-preference) {
+    html.pxl-onepage-wrap {
+        scroll-behavior: inherit;
+    }
+}

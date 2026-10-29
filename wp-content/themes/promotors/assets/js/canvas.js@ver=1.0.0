@@ -1,0 +1,32 @@
+(function ($) {
+	$(window).on('load', function() {
+		$('.ct-preloader').css({
+			"opacity": "0",
+			"transition-delay": "1.5s"
+		});
+		var styleElem1 = document.head.appendChild(document.createElement("style"));
+		var styleElem2 = document.head.appendChild(document.createElement("style"));
+		styleElem1.innerHTML = "#handle-preloader:before {transform: translateX(-100%); transition-delay: 1.5s;}";
+		styleElem2.innerHTML = "#handle-preloader:after {transform: translateX(100%); transition-delay: 1.5s;}";
+
+		$('.loader_text_unit').each(function() {
+			var $this = $(this),
+			countTo = $this.attr('data-count');
+
+			$({ countNum: $this.text()}).animate({
+				countNum: countTo
+			},
+
+			{
+				duration: 800,
+				easing:'linear',
+				step: function() {
+					$this.text(Math.floor(this.countNum));
+				},
+				complete: function() {
+					$this.text(this.countNum);
+				}
+			});
+		});
+	});
+})(jQuery);

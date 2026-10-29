@@ -1,0 +1,360 @@
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-0c3fa8a2.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-b4e67974.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-5e95d215.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-4d4823fb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-a7675094.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-5aebb91b.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-57b4a0f4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-2f0158f9.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-9f0587ee.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-46f2e0fa.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-98ed5c31.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-5e893153.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-37766539.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-00883727.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-e4a8b402.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-e1cef03e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-efcf8186.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-55298dce.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-71395aed.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-de48ddf4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-a26c25b0.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-bf52b209.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-acdd37f6.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-faf85f3a.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-b52edf4c.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-60d371a5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-15508322.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-2d05bbbc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-3179df16.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-5c8739d4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-cb2326d8.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-a344f3f8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-50387290.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-d8c2208e.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-e0506ac9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-1cc4cd70.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-0d3bb7c4.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-a64dda9f.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-96af8d7d.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://indigo-yak-498320.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/chakrapetch-869a9485.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

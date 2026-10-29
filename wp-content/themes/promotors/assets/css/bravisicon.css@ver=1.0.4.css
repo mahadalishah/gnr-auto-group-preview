@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "Bravisicon";
+  src: url("../fonts/bravisicon.eot");
+  src: url("../fonts/bravisicon.eot@") format("embedded-opentype"),
+       url("../fonts/bravisicon.woff2") format("woff2"),
+       url("../fonts/bravisicon.woff") format("woff"),
+       url("../fonts/bravisicon.ttf") format("truetype"),
+       url("../fonts/bravisicon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Bravisicon";
+    src: url("../fonts/bravisicon.svg") format("svg");
+  }
+}
+
+[class^="bravisicon-"], [class*=" bravisicon-"] {
+  display: inline-block;
+}
+
+[class^="bravisicon-"]:before, [class*=" bravisicon-"]:before,
+[class^="bravisicon-"]:after, [class*=" bravisicon-"]:after {
+  font-family: Bravisicon;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bravisicon-android:before {
+    content: "\f101";
+}
+.bravisicon-angle-arrow-down:before {
+    content: "\f102";
+}
+.bravisicon-angle-arrow-left:before {
+    content: "\f103";
+}
+.bravisicon-angle-arrow-right:before {
+    content: "\f104";
+}
+.bravisicon-angle-arrow-up:before {
+    content: "\f105";
+}
+.bravisicon-arrows-updown:before {
+    content: "\f106";
+}
+.bravisicon-behance:before {
+    content: "\f107";
+}
+.bravisicon-calendar-alt:before {
+    content: "\f108";
+}
+.bravisicon-calendar:before {
+    content: "\f109";
+}
+.bravisicon-caret-arrow-down:before {
+    content: "\f10a";
+}
+.bravisicon-caret-arrow-up:before {
+    content: "\f10b";
+}
+.bravisicon-check:before {
+    content: "\f10c";
+}
+.bravisicon-clock:before {
+    content: "\f10d";
+}
+.bravisicon-close-alt:before {
+    content: "\f10e";
+}
+.bravisicon-close:before {
+    content: "\f10f";
+}
+.bravisicon-comment-solid:before {
+    content: "\f110";
+}
+.bravisicon-comment:before {
+    content: "\f111";
+}
+.bravisicon-double-chevron-down:before {
+    content: "\f112";
+}
+.bravisicon-double-chevron-left:before {
+    content: "\f113";
+}
+.bravisicon-double-chevron-right:before {
+    content: "\f114";
+}
+.bravisicon-double-chevron-up:before {
+    content: "\f115";
+}
+.bravisicon-dribbble:before {
+    content: "\f116";
+}
+.bravisicon-envelope:before {
+    content: "\f117";
+}
+.bravisicon-facebook:before {
+    content: "\f118";
+}
+.bravisicon-grid:before {
+    content: "\f119";
+}
+.bravisicon-heart-alt:before {
+    content: "\f11a";
+}
+.bravisicon-home:before {
+    content: "\f11b";
+}
+.bravisicon-instagram:before {
+    content: "\f11c";
+}
+.bravisicon-left-arrow:before {
+    content: "\f11d";
+}
+.bravisicon-linkedin:before {
+    content: "\f11e";
+}
+.bravisicon-list:before {
+    content: "\f11f";
+}
+.bravisicon-long-arrow-left:before {
+    content: "\f120";
+}
+.bravisicon-long-arrow-right-three:before {
+    content: "\f121";
+}
+.bravisicon-long-arrow-right-two:before {
+    content: "\f122";
+}
+.bravisicon-long-arrow-right:before {
+    content: "\f123";
+}
+.bravisicon-marker:before {
+    content: "\f124";
+}
+.bravisicon-open-folder:before {
+    content: "\f125";
+}
+.bravisicon-phone:before {
+    content: "\f126";
+}
+.bravisicon-pinterest:before {
+    content: "\f127";
+}
+.bravisicon-quote-bottom:before {
+    content: "\f128";
+}
+.bravisicon-quote-left:before {
+    content: "\f129";
+}
+.bravisicon-random:before {
+    content: "\f12a";
+}
+.bravisicon-refresh-arrow:before {
+    content: "\f12b";
+}
+.bravisicon-refresh:before {
+    content: "\f12c";
+}
+.bravisicon-right-arrow:before {
+    content: "\f12d";
+}
+.bravisicon-search:before {
+    content: "\f12e";
+}
+.bravisicon-shopping-cart-alt:before {
+    content: "\f12f";
+}
+.bravisicon-shopping-cart:before {
+    content: "\f130";
+}
+.bravisicon-skype:before {
+    content: "\f131";
+}
+.bravisicon-tags-alt:before {
+    content: "\f132";
+}
+.bravisicon-tags:before {
+    content: "\f133";
+}
+.bravisicon-tick:before {
+    content: "\f134";
+}
+.bravisicon-tripadvisor:before {
+    content: "\f135";
+}
+.bravisicon-tumblr:before {
+    content: "\f136";
+}
+.bravisicon-twitter:before {
+    content: "\f137";
+}
+.bravisicon-user-alt:before {
+    content: "\f138";
+}
+.bravisicon-user:before {
+    content: "\f139";
+}
+.bravisicon-view-alt:before {
+    content: "\f13a";
+}
+.bravisicon-vimeo:before {
+    content: "\f13b";
+}
+.bravisicon-yelp:before {
+    content: "\f13c";
+}
+.bravisicon-youtube:before {
+    content: "\f13d";
+}
+.bravisicon-zoom-in:before {
+    content: "\f13e";
+}
