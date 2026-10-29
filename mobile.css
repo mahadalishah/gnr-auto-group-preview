@@ -1,0 +1,166 @@
+/* Mobile optimizations for the GNR Auto Leasing preview.
+   Loaded after the theme styles on every page; everything is scoped to phone widths. */
+
+@media (max-width: 767px) {
+  /* Page hero titles (About, Contact, Build Your Car, Leasing Application...) were up to 66px and overflowed at 360px */
+  .elementor-widget-heading h1.elementor-heading-title {
+    font-size: clamp(34px, 11vw, 48px) !important;
+    line-height: 1.05 !important;
+    overflow-wrap: break-word;
+  }
+
+  /* Hero slider: the "FIND YOUR CAR" button rendered at 6px and was too small to tap */
+  sr7-module .sr7-btn {
+    font-size: 13px !important;
+    line-height: 44px !important;
+    min-height: 44px !important;
+    height: auto !important;
+    padding: 0 22px !important;
+    white-space: nowrap !important;
+    width: auto !important;
+  }
+  sr7-module sr7-mask.btn-slider {
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* Home "Best multi brand car shop": two logos per row instead of one per screen */
+  .elementor-widget-ct_client_grid .grid-item.col-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .elementor-widget-ct_client_grid .row {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+  .elementor-widget-ct_client_grid .client-image {
+    margin-bottom: 12px;
+  }
+  .elementor-widget-ct_client_grid .client-image img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /* Testimonial slider dots: 3px tall bars become 24px tap targets with the same look */
+  .slick-dots li button {
+    height: 24px !important;
+    padding: 10px 0 !important;
+    background-clip: content-box !important;
+  }
+  .slick-dots {
+    margin-top: 40px !important;
+  }
+
+  /* Forms: give the card more room. The fields were squeezed to 228px wide by 40px + 40px of padding */
+  .e-con:has(> .e-con-inner > .elementor-widget-shortcode .gform_wrapper) {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .e-con-inner:has(> .elementor-widget-shortcode .gform_wrapper) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .elementor-widget-shortcode:has(.gform_wrapper) {
+    padding: 28px 16px !important;
+  }
+
+  /* 16px inputs stop iOS Safari from zooming in when a field is tapped */
+  .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]),
+  .gform_wrapper select,
+  .gform_wrapper textarea,
+  input.tnp-email {
+    font-size: 16px !important;
+    min-height: 46px;
+  }
+  .gform_wrapper .gform_page_footer input[type=button],
+  .gform_wrapper .gform_page_footer input[type=submit],
+  .gform_wrapper .gform_page_footer button {
+    min-height: 46px;
+    font-size: 16px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  /* Build Your Car brand picker: 40 brands were one 230px card per row (about 8,000px of scrolling).
+     Show them as a compact two-column grid; the whole card stays tappable via its label. */
+  .gfield--type-image_choice .gfield_radio {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px !important;
+  }
+  .gfield--type-image_choice .gchoice {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+    position: relative;
+  }
+  .gfield--type-image_choice .gfield-image-choice-wrapper-outer {
+    padding: 10px !important;
+  }
+  .gfield--type-image_choice .gfield-image-choice-wrapper-outer,
+  .gfield--type-image_choice .gfield-choice-image-wrapper {
+    min-width: 0 !important;
+    width: auto !important;
+  }
+  .gfield--type-image_choice .gfield-choice-image-wrapper {
+    margin-bottom: 8px !important;
+    aspect-ratio: 3 / 2;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .gfield--type-image_choice .gfield-choice-image {
+    max-height: 100%;
+    width: auto !important;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .gfield--type-image_choice .gchoice .gform-field-label {
+    font-size: 12px !important;
+    line-height: 1.2;
+  }
+  /* Stretch each label over its card so a tap anywhere on the logo selects the brand */
+  .gfield--type-image_choice .gchoice .gform-field-label::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  /* Footer: smaller logo with no negative offset, and taller quick-link rows */
+  .elementor-element-788a939 .elementor-widget-container {
+    margin-left: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .elementor-element-788a939 .ct-logo img {
+    width: 130px !important;
+    height: auto !important;
+  }
+  .ct-nav-menu2 .ct-nav-inner > li {
+    margin-bottom: 0 !important;
+  }
+  .ct-nav-menu2 .ct-nav-inner > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  /* Contact details links (email, phone) need a taller tap area */
+  .ct-contact-list a,
+  a[href^="tel:"],
+  a[href^="mailto:"] {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .gfield--type-image_choice .gfield_radio {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
